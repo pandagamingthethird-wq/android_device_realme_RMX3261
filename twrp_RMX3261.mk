@@ -33,12 +33,12 @@ $(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 $(call inherit-product-if-exists, vendor/pb/config/common.mk)
 
 # Inherit from RMX3261 device
-$(call inherit-product, device/realme/RMX3261/device.mk)
+$(call inherit-product, device/realme/RMX3263/device.mk)
 
-PRODUCT_DEVICE := RMX3261
-PRODUCT_NAME := twrp_RMX3261
+PRODUCT_DEVICE := RMX3263
+PRODUCT_NAME := twrp_RMX3263
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3261
+PRODUCT_MODEL := RMX3263
 PRODUCT_MANUFACTURER := realme
 
 
