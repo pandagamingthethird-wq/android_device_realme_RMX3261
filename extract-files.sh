@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=RMX3261
+DEVICE=RMX3263
 VENDOR=realme
 
 # Load extract_utils and do some sanity checks
