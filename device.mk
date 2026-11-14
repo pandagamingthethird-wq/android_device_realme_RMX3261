@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-LOCAL_PATH := device/realme/RMX3261
+LOCAL_PATH := device/realme/RMX3263
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
