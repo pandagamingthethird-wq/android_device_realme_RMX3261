@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-DEVICE_PATH := device/realme/RMX3261
+DEVICE_PATH := device/realme/RMX3263
 
 # Architecture
 TARGET_ARCH := arm64
