@@ -15,9 +15,9 @@
 
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_RMX3261.mk
+    $(LOCAL_DIR)/twrp_RMX3263.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_RMX3261-user \
-    twrp_RMX3261-userdebug \
-    twrp_RMX3261-eng
+    twrp_RMX3263-user \
+    twrp_RMX3263-userdebug \
+    twrp_RMX3263-eng
