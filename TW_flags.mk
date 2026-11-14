@@ -28,10 +28,7 @@ TW_DEFAULT_BRIGHTNESS := 500
 TW_MAX_BRIGHTNESS := 4000
 
 #maintainer
-BOARD_MAINTAINER_NAME := GitFASTBOOT
 TW_DEVICE_VERSION := $(BOARD_MAINTAINER_NAME)
-OF_MAINTAINER := $(BOARD_MAINTAINER_NAME)
-PB_MAIN_VERSION := $(BOARD_MAINTAINER_NAME)
 
 # resetprop & repacktools
 TW_INCLUDE_RESETPROP := true
@@ -45,3 +42,9 @@ TARGET_USES_LOGD := true
 
 # Kernel module
 TW_LOAD_VENDOR_MODULES := "incrementalfs.ko kheaders.ko trace_irqsoff_bytedancy.ko trace_noschedule_bytedancy.ko trace_runqlat_bytedancy.ko"
+
+
+# Decryption Flags
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_FBE_METADATA_DECRYPT := true
